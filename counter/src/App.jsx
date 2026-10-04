@@ -53,6 +53,7 @@ import { useState } from 'react'
 import Counter from './components/Counter'
 import StoreName from './components/StoreName'
 import Products from './components/Products'
+import LoginStatus from './components/LoginStatus'
 
 const App = () => {
     
@@ -63,7 +64,7 @@ const App = () => {
     <Counter/>
     <StoreName/>
     <Products/>
-    
+    <LoginStatus/>
     </>
   )
 }

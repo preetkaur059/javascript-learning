@@ -4,12 +4,14 @@ const Products = () => {
 
   return (
     <div>
-      {product.map((product,index)=>(
+      {product.map((product,index)=>{
+        return ( 
         <div >
-            <h1 style={{ color: "white" }}> {index}{product.productName}</h1>
-            <h2>{product.price}</h2>
+            <h2 style={{ color: "white" }}> {index} {product.productName}</h2>
+            <h3>{product.price}</h3>
         </div>
-      ))}
+        );
+      })} 
     </div>
   )
 }
