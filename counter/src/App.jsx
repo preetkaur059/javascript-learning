@@ -50,25 +50,18 @@
 import React from 'react'
 import WelCome from './components/WelCome'
 import { useState } from 'react'
+import Counter from './components/Counter'
+import StoreName from './components/StoreName'
 
 const App = () => {
-    const [count, setCount] = useState(1);
-    const increment = () =>{
-        setCount(prev => prev + 1);
-    }
-    const decrement = () =>{
-        setCount(prev => prev - 1);
-    }
+    
 
   return (
     <>
     <WelCome  name="john"/>
-
-    <div className='flex'>
-        <button onClick={decrement}>-</button>
-        <h1 >{count}</h1>
-        <button onClick={increment}>+</button>
-    </div>
+    <Counter/>
+    <StoreName/>
+    
     </>
   )
 }
