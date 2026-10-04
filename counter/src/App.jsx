@@ -52,6 +52,7 @@ import WelCome from './components/WelCome'
 import { useState } from 'react'
 import Counter from './components/Counter'
 import StoreName from './components/StoreName'
+import Products from './components/Products'
 
 const App = () => {
     
@@ -61,6 +62,7 @@ const App = () => {
     <WelCome  name="john"/>
     <Counter/>
     <StoreName/>
+    <Products/>
     
     </>
   )
