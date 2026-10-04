@@ -61,10 +61,10 @@ const App = () => {
   return (
     <>
     <WelCome  name="john"/>
+    <LoginStatus/>
     <Counter/>
     <StoreName/>
     <Products/>
-    <LoginStatus/>
     </>
   )
 }
